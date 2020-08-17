@@ -1,0 +1,1536 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SmartDoctor™
+</name>
+</assembly>
+<members>
+<member name="T:SmartDoctor.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:SmartDoctor.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:SmartDoctor.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:SmartDoctor.My.Resources.Resources.BG_DNA">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SmartDoctor.My.Resources.Resources.del">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SmartDoctor.My.Resources.Resources.DNA_loading">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SmartDoctor.My.Resources.Resources.DNA_loading__crop">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SmartDoctor.My.Resources.Resources.ECG_BG">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SmartDoctor.My.Resources.Resources.Eye_Open1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SmartDoctor.My.Resources.Resources.Health_128x128">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SmartDoctor.My.Resources.Resources.Health_64x64">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SmartDoctor.My.Resources.Resources.Infinity_Spinner">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SmartDoctor.My.Resources.Resources.Logon_BG2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SmartDoctor.My.Resources.Resources.medical_white_BG">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SmartDoctor.My.Resources.Resources.Overlay_Black">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SmartDoctor.My.Resources.Resources.Overlay_Black_Light">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SmartDoctor.My.Resources.Resources.Overlay_Black_Light_Large_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SmartDoctor.My.Resources.Resources.Overlay_Sky_Light">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SmartDoctor.My.Resources.Resources.Overlay_White">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SmartDoctor.My.Resources.Resources.Overlay_White_Bottom">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SmartDoctor.My.Resources.Resources.Overlay_White_Top">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SmartDoctor.My.Resources.Resources.patient_green">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SmartDoctor.My.Resources.Resources.RS_Logo_White__64x64">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SmartDoctor.My.Resources.Resources.Spinner">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:SmartDoctor.BP_LIST_NON_USERS">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SmartDoctor.BP_LIST_NON_USERS.BP_DETAILSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SmartDoctor.BP_LIST_NON_USERS.BP_DETAILSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SmartDoctor.BP_LIST_NON_USERS.BP_DETAILSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SmartDoctor.BP_LIST_NON_USERSTableAdapters.BP_DETAILSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SmartDoctor.BP_LIST_NON_USERSTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SmartDoctor.BP_LIST_NON_USERSTableAdapters.TableAdapterManager.UpdateUpdatedRows(SmartDoctor.BP_LIST_NON_USERS,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SmartDoctor.BP_LIST_NON_USERSTableAdapters.TableAdapterManager.UpdateInsertedRows(SmartDoctor.BP_LIST_NON_USERS,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SmartDoctor.BP_LIST_NON_USERSTableAdapters.TableAdapterManager.UpdateDeletedRows(SmartDoctor.BP_LIST_NON_USERS,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SmartDoctor.BP_LIST_NON_USERSTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SmartDoctor.BP_LIST_NON_USERSTableAdapters.TableAdapterManager.UpdateAll(SmartDoctor.BP_LIST_NON_USERS)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SmartDoctor.BP_LIST_NON_USERSTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SmartDoctor.BP_LIST_NON_USERSTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:SmartDoctor.CONSULTANT_LIST">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SmartDoctor.CONSULTANT_LIST.CONSULTANTSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SmartDoctor.CONSULTANT_LIST.CONSULTANTSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SmartDoctor.CONSULTANT_LIST.CONSULTANTSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SmartDoctor.CONSULTANT_LISTTableAdapters.CONSULTANTSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SmartDoctor.CONSULTANT_LISTTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SmartDoctor.CONSULTANT_LISTTableAdapters.TableAdapterManager.UpdateUpdatedRows(SmartDoctor.CONSULTANT_LIST,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SmartDoctor.CONSULTANT_LISTTableAdapters.TableAdapterManager.UpdateInsertedRows(SmartDoctor.CONSULTANT_LIST,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SmartDoctor.CONSULTANT_LISTTableAdapters.TableAdapterManager.UpdateDeletedRows(SmartDoctor.CONSULTANT_LIST,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SmartDoctor.CONSULTANT_LISTTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SmartDoctor.CONSULTANT_LISTTableAdapters.TableAdapterManager.UpdateAll(SmartDoctor.CONSULTANT_LIST)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SmartDoctor.CONSULTANT_LISTTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SmartDoctor.CONSULTANT_LISTTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:SmartDoctor.CONTACT_TYPE_LIST">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SmartDoctor.CONTACT_TYPE_LIST.CONTACT_TYPEDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SmartDoctor.CONTACT_TYPE_LIST.CONTACT_TYPERow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SmartDoctor.CONTACT_TYPE_LIST.CONTACT_TYPERowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SmartDoctor.CONTACT_TYPE_LISTTableAdapters.CONTACT_TYPETableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SmartDoctor.CONTACT_TYPE_LISTTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SmartDoctor.CONTACT_TYPE_LISTTableAdapters.TableAdapterManager.UpdateUpdatedRows(SmartDoctor.CONTACT_TYPE_LIST,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SmartDoctor.CONTACT_TYPE_LISTTableAdapters.TableAdapterManager.UpdateInsertedRows(SmartDoctor.CONTACT_TYPE_LIST,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SmartDoctor.CONTACT_TYPE_LISTTableAdapters.TableAdapterManager.UpdateDeletedRows(SmartDoctor.CONTACT_TYPE_LIST,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SmartDoctor.CONTACT_TYPE_LISTTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SmartDoctor.CONTACT_TYPE_LISTTableAdapters.TableAdapterManager.UpdateAll(SmartDoctor.CONTACT_TYPE_LIST)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SmartDoctor.CONTACT_TYPE_LISTTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SmartDoctor.CONTACT_TYPE_LISTTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:SmartDoctor.STAFF_LIST">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SmartDoctor.STAFF_LIST.STAFF_LISTDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SmartDoctor.STAFF_LIST.STAFF_LISTRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SmartDoctor.STAFF_LIST.STAFF_LISTRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SmartDoctor.STAFF_LISTTableAdapters.STAFF_LISTTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SmartDoctor.STAFF_LISTTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SmartDoctor.STAFF_LISTTableAdapters.TableAdapterManager.UpdateUpdatedRows(SmartDoctor.STAFF_LIST,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SmartDoctor.STAFF_LISTTableAdapters.TableAdapterManager.UpdateInsertedRows(SmartDoctor.STAFF_LIST,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SmartDoctor.STAFF_LISTTableAdapters.TableAdapterManager.UpdateDeletedRows(SmartDoctor.STAFF_LIST,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SmartDoctor.STAFF_LISTTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SmartDoctor.STAFF_LISTTableAdapters.TableAdapterManager.UpdateAll(SmartDoctor.STAFF_LIST)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SmartDoctor.STAFF_LISTTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SmartDoctor.STAFF_LISTTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:SmartDoctor.STAFF_TYPE_LIST">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SmartDoctor.STAFF_TYPE_LIST.BP_TYPEDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SmartDoctor.STAFF_TYPE_LIST.BP_TYPERow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SmartDoctor.STAFF_TYPE_LIST.BP_TYPERowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SmartDoctor.STAFF_TYPE_LISTTableAdapters.BP_TYPETableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SmartDoctor.STAFF_TYPE_LISTTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SmartDoctor.STAFF_TYPE_LISTTableAdapters.TableAdapterManager.UpdateUpdatedRows(SmartDoctor.STAFF_TYPE_LIST,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SmartDoctor.STAFF_TYPE_LISTTableAdapters.TableAdapterManager.UpdateInsertedRows(SmartDoctor.STAFF_TYPE_LIST,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SmartDoctor.STAFF_TYPE_LISTTableAdapters.TableAdapterManager.UpdateDeletedRows(SmartDoctor.STAFF_TYPE_LIST,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SmartDoctor.STAFF_TYPE_LISTTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SmartDoctor.STAFF_TYPE_LISTTableAdapters.TableAdapterManager.UpdateAll(SmartDoctor.STAFF_TYPE_LIST)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SmartDoctor.STAFF_TYPE_LISTTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SmartDoctor.STAFF_TYPE_LISTTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:SmartDoctor.SYS_USERS_LIST">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SmartDoctor.SYS_USERS_LIST.SYS_USERSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SmartDoctor.SYS_USERS_LIST.SYS_USERSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SmartDoctor.SYS_USERS_LIST.SYS_USERSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SmartDoctor.SYS_USERS_LISTTableAdapters.SYS_USERSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SmartDoctor.SYS_USERS_LISTTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SmartDoctor.SYS_USERS_LISTTableAdapters.TableAdapterManager.UpdateUpdatedRows(SmartDoctor.SYS_USERS_LIST,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SmartDoctor.SYS_USERS_LISTTableAdapters.TableAdapterManager.UpdateInsertedRows(SmartDoctor.SYS_USERS_LIST,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SmartDoctor.SYS_USERS_LISTTableAdapters.TableAdapterManager.UpdateDeletedRows(SmartDoctor.SYS_USERS_LIST,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SmartDoctor.SYS_USERS_LISTTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SmartDoctor.SYS_USERS_LISTTableAdapters.TableAdapterManager.UpdateAll(SmartDoctor.SYS_USERS_LIST)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SmartDoctor.SYS_USERS_LISTTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SmartDoctor.SYS_USERS_LISTTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:SmartDoctor.PATIENT_VISIT_LIST">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SmartDoctor.PATIENT_VISIT_LIST.PATIENT_VISITSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SmartDoctor.PATIENT_VISIT_LIST.PATIENT_VISITSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SmartDoctor.PATIENT_VISIT_LIST.PATIENT_VISITSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SmartDoctor.PATIENT_VISIT_LISTTableAdapters.PATIENT_VISITSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SmartDoctor.PATIENT_VISIT_LISTTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SmartDoctor.PATIENT_VISIT_LISTTableAdapters.TableAdapterManager.UpdateUpdatedRows(SmartDoctor.PATIENT_VISIT_LIST,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SmartDoctor.PATIENT_VISIT_LISTTableAdapters.TableAdapterManager.UpdateInsertedRows(SmartDoctor.PATIENT_VISIT_LIST,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SmartDoctor.PATIENT_VISIT_LISTTableAdapters.TableAdapterManager.UpdateDeletedRows(SmartDoctor.PATIENT_VISIT_LIST,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SmartDoctor.PATIENT_VISIT_LISTTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SmartDoctor.PATIENT_VISIT_LISTTableAdapters.TableAdapterManager.UpdateAll(SmartDoctor.PATIENT_VISIT_LIST)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SmartDoctor.PATIENT_VISIT_LISTTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SmartDoctor.PATIENT_VISIT_LISTTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:SmartDoctor.PATIENT_VISIT_STARTED_LIST">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SmartDoctor.PATIENT_VISIT_STARTED_LIST.PATIENT_VISITSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SmartDoctor.PATIENT_VISIT_STARTED_LIST.PATIENT_VISITSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SmartDoctor.PATIENT_VISIT_STARTED_LIST.PATIENT_VISITSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SmartDoctor.PATIENT_VISIT_STARTED_LISTTableAdapters.PATIENT_VISITSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SmartDoctor.PATIENT_VISIT_STARTED_LISTTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SmartDoctor.PATIENT_VISIT_STARTED_LISTTableAdapters.TableAdapterManager.UpdateUpdatedRows(SmartDoctor.PATIENT_VISIT_STARTED_LIST,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SmartDoctor.PATIENT_VISIT_STARTED_LISTTableAdapters.TableAdapterManager.UpdateInsertedRows(SmartDoctor.PATIENT_VISIT_STARTED_LIST,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SmartDoctor.PATIENT_VISIT_STARTED_LISTTableAdapters.TableAdapterManager.UpdateDeletedRows(SmartDoctor.PATIENT_VISIT_STARTED_LIST,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SmartDoctor.PATIENT_VISIT_STARTED_LISTTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SmartDoctor.PATIENT_VISIT_STARTED_LISTTableAdapters.TableAdapterManager.UpdateAll(SmartDoctor.PATIENT_VISIT_STARTED_LIST)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SmartDoctor.PATIENT_VISIT_STARTED_LISTTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SmartDoctor.PATIENT_VISIT_STARTED_LISTTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:SmartDoctor.PATIENT_REPORTS_LIST">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SmartDoctor.PATIENT_REPORTS_LIST.PATIENT_REPORTSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SmartDoctor.PATIENT_REPORTS_LIST.PATIENT_REPORTSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SmartDoctor.PATIENT_REPORTS_LIST.PATIENT_REPORTSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SmartDoctor.PATIENT_REPORTS_LISTTableAdapters.PATIENT_REPORTSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SmartDoctor.PATIENT_REPORTS_LISTTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SmartDoctor.PATIENT_REPORTS_LISTTableAdapters.TableAdapterManager.UpdateUpdatedRows(SmartDoctor.PATIENT_REPORTS_LIST,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SmartDoctor.PATIENT_REPORTS_LISTTableAdapters.TableAdapterManager.UpdateInsertedRows(SmartDoctor.PATIENT_REPORTS_LIST,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SmartDoctor.PATIENT_REPORTS_LISTTableAdapters.TableAdapterManager.UpdateDeletedRows(SmartDoctor.PATIENT_REPORTS_LIST,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SmartDoctor.PATIENT_REPORTS_LISTTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SmartDoctor.PATIENT_REPORTS_LISTTableAdapters.TableAdapterManager.UpdateAll(SmartDoctor.PATIENT_REPORTS_LIST)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SmartDoctor.PATIENT_REPORTS_LISTTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SmartDoctor.PATIENT_REPORTS_LISTTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:SmartDoctor.PATIENTS_LIST">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SmartDoctor.PATIENTS_LIST.PATIENT_DETAILSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SmartDoctor.PATIENTS_LIST.PATIENT_DETAILSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SmartDoctor.PATIENTS_LIST.PATIENT_DETAILSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SmartDoctor.PATIENTS_LISTTableAdapters.PATIENT_DETAILSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SmartDoctor.PATIENTS_LISTTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SmartDoctor.PATIENTS_LISTTableAdapters.TableAdapterManager.UpdateUpdatedRows(SmartDoctor.PATIENTS_LIST,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SmartDoctor.PATIENTS_LISTTableAdapters.TableAdapterManager.UpdateInsertedRows(SmartDoctor.PATIENTS_LIST,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SmartDoctor.PATIENTS_LISTTableAdapters.TableAdapterManager.UpdateDeletedRows(SmartDoctor.PATIENTS_LIST,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SmartDoctor.PATIENTS_LISTTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SmartDoctor.PATIENTS_LISTTableAdapters.TableAdapterManager.UpdateAll(SmartDoctor.PATIENTS_LIST)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SmartDoctor.PATIENTS_LISTTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SmartDoctor.PATIENTS_LISTTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:SmartDoctor._SYS_USERS_Login">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SmartDoctor._SYS_USERS_Login.SYS_USERSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SmartDoctor._SYS_USERS_Login.SYS_USERSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SmartDoctor._SYS_USERS_Login.SYS_USERSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SmartDoctor._SYS_USERS_LoginTableAdapters.SYS_USERSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SmartDoctor._SYS_USERS_LoginTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SmartDoctor._SYS_USERS_LoginTableAdapters.TableAdapterManager.UpdateUpdatedRows(SmartDoctor._SYS_USERS_Login,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SmartDoctor._SYS_USERS_LoginTableAdapters.TableAdapterManager.UpdateInsertedRows(SmartDoctor._SYS_USERS_Login,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SmartDoctor._SYS_USERS_LoginTableAdapters.TableAdapterManager.UpdateDeletedRows(SmartDoctor._SYS_USERS_Login,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SmartDoctor._SYS_USERS_LoginTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SmartDoctor._SYS_USERS_LoginTableAdapters.TableAdapterManager.UpdateAll(SmartDoctor._SYS_USERS_Login)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SmartDoctor._SYS_USERS_LoginTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SmartDoctor._SYS_USERS_LoginTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:SmartDoctor._PATIENT_DETAILS">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SmartDoctor._PATIENT_DETAILS.BP_DETAILSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SmartDoctor._PATIENT_DETAILS.PATIENT_DETAILSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SmartDoctor._PATIENT_DETAILS.BP_DETAILSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SmartDoctor._PATIENT_DETAILS.PATIENT_DETAILSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SmartDoctor._PATIENT_DETAILS.BP_DETAILSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SmartDoctor._PATIENT_DETAILS.PATIENT_DETAILSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SmartDoctor._PATIENT_DETAILSTableAdapters.BP_DETAILSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SmartDoctor._PATIENT_DETAILSTableAdapters.PATIENT_DETAILSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SmartDoctor._PATIENT_DETAILSTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SmartDoctor._PATIENT_DETAILSTableAdapters.TableAdapterManager.UpdateUpdatedRows(SmartDoctor._PATIENT_DETAILS,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SmartDoctor._PATIENT_DETAILSTableAdapters.TableAdapterManager.UpdateInsertedRows(SmartDoctor._PATIENT_DETAILS,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SmartDoctor._PATIENT_DETAILSTableAdapters.TableAdapterManager.UpdateDeletedRows(SmartDoctor._PATIENT_DETAILS,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SmartDoctor._PATIENT_DETAILSTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SmartDoctor._PATIENT_DETAILSTableAdapters.TableAdapterManager.UpdateAll(SmartDoctor._PATIENT_DETAILS)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SmartDoctor._PATIENT_DETAILSTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SmartDoctor._PATIENT_DETAILSTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:SmartDoctor._PATIENT_VISITS">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SmartDoctor._PATIENT_VISITS.PATIENT_VISITSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SmartDoctor._PATIENT_VISITS.PATIENT_VISITSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SmartDoctor._PATIENT_VISITS.PATIENT_VISITSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SmartDoctor._PATIENT_VISITSTableAdapters.PATIENT_VISITSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SmartDoctor._PATIENT_VISITSTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SmartDoctor._PATIENT_VISITSTableAdapters.TableAdapterManager.UpdateUpdatedRows(SmartDoctor._PATIENT_VISITS,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SmartDoctor._PATIENT_VISITSTableAdapters.TableAdapterManager.UpdateInsertedRows(SmartDoctor._PATIENT_VISITS,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SmartDoctor._PATIENT_VISITSTableAdapters.TableAdapterManager.UpdateDeletedRows(SmartDoctor._PATIENT_VISITS,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SmartDoctor._PATIENT_VISITSTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SmartDoctor._PATIENT_VISITSTableAdapters.TableAdapterManager.UpdateAll(SmartDoctor._PATIENT_VISITS)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SmartDoctor._PATIENT_VISITSTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SmartDoctor._PATIENT_VISITSTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:SmartDoctor.VISIT_TYPE_LIST">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SmartDoctor.VISIT_TYPE_LIST.VISIT_TYPEDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SmartDoctor.VISIT_TYPE_LIST.VISIT_TYPERow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SmartDoctor.VISIT_TYPE_LIST.VISIT_TYPERowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SmartDoctor.VISIT_TYPE_LISTTableAdapters.VISIT_TYPETableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SmartDoctor.VISIT_TYPE_LISTTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SmartDoctor.VISIT_TYPE_LISTTableAdapters.TableAdapterManager.UpdateUpdatedRows(SmartDoctor.VISIT_TYPE_LIST,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SmartDoctor.VISIT_TYPE_LISTTableAdapters.TableAdapterManager.UpdateInsertedRows(SmartDoctor.VISIT_TYPE_LIST,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SmartDoctor.VISIT_TYPE_LISTTableAdapters.TableAdapterManager.UpdateDeletedRows(SmartDoctor.VISIT_TYPE_LIST,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SmartDoctor.VISIT_TYPE_LISTTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SmartDoctor.VISIT_TYPE_LISTTableAdapters.TableAdapterManager.UpdateAll(SmartDoctor.VISIT_TYPE_LIST)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SmartDoctor.VISIT_TYPE_LISTTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SmartDoctor.VISIT_TYPE_LISTTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:SmartDoctor._BP_CONTACT_DETAILS">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SmartDoctor._BP_CONTACT_DETAILS.BP_CONTACT_DETAILSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SmartDoctor._BP_CONTACT_DETAILS.BP_CONTACT_DETAILSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SmartDoctor._BP_CONTACT_DETAILS.BP_CONTACT_DETAILSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SmartDoctor._BP_CONTACT_DETAILSTableAdapters.BP_CONTACT_DETAILSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SmartDoctor._BP_CONTACT_DETAILSTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SmartDoctor._BP_CONTACT_DETAILSTableAdapters.TableAdapterManager.UpdateUpdatedRows(SmartDoctor._BP_CONTACT_DETAILS,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SmartDoctor._BP_CONTACT_DETAILSTableAdapters.TableAdapterManager.UpdateInsertedRows(SmartDoctor._BP_CONTACT_DETAILS,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SmartDoctor._BP_CONTACT_DETAILSTableAdapters.TableAdapterManager.UpdateDeletedRows(SmartDoctor._BP_CONTACT_DETAILS,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SmartDoctor._BP_CONTACT_DETAILSTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SmartDoctor._BP_CONTACT_DETAILSTableAdapters.TableAdapterManager.UpdateAll(SmartDoctor._BP_CONTACT_DETAILS)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SmartDoctor._BP_CONTACT_DETAILSTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SmartDoctor._BP_CONTACT_DETAILSTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:SmartDoctor._CONSULTANT_DETAILS">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SmartDoctor._CONSULTANT_DETAILS.BP_DETAILSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SmartDoctor._CONSULTANT_DETAILS.CONSULTANT_DETAILSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SmartDoctor._CONSULTANT_DETAILS.BP_DETAILSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SmartDoctor._CONSULTANT_DETAILS.CONSULTANT_DETAILSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SmartDoctor._CONSULTANT_DETAILS.BP_DETAILSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SmartDoctor._CONSULTANT_DETAILS.CONSULTANT_DETAILSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SmartDoctor._CONSULTANT_DETAILSTableAdapters.BP_DETAILSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SmartDoctor._CONSULTANT_DETAILSTableAdapters.CONSULTANT_DETAILSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SmartDoctor._CONSULTANT_DETAILSTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SmartDoctor._CONSULTANT_DETAILSTableAdapters.TableAdapterManager.UpdateUpdatedRows(SmartDoctor._CONSULTANT_DETAILS,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SmartDoctor._CONSULTANT_DETAILSTableAdapters.TableAdapterManager.UpdateInsertedRows(SmartDoctor._CONSULTANT_DETAILS,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SmartDoctor._CONSULTANT_DETAILSTableAdapters.TableAdapterManager.UpdateDeletedRows(SmartDoctor._CONSULTANT_DETAILS,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SmartDoctor._CONSULTANT_DETAILSTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SmartDoctor._CONSULTANT_DETAILSTableAdapters.TableAdapterManager.UpdateAll(SmartDoctor._CONSULTANT_DETAILS)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SmartDoctor._CONSULTANT_DETAILSTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SmartDoctor._CONSULTANT_DETAILSTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:SmartDoctor._CONSULTANT_FEE_DETAILS">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SmartDoctor._CONSULTANT_FEE_DETAILS.CONSULTANT_FEE_DETAILSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SmartDoctor._CONSULTANT_FEE_DETAILS.CONSULTANT_FEE_DETAILSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SmartDoctor._CONSULTANT_FEE_DETAILS.CONSULTANT_FEE_DETAILSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SmartDoctor._CONSULTANT_FEE_DETAILSTableAdapters.CONSULTANT_FEE_DETAILSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SmartDoctor._CONSULTANT_FEE_DETAILSTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SmartDoctor._CONSULTANT_FEE_DETAILSTableAdapters.TableAdapterManager.UpdateUpdatedRows(SmartDoctor._CONSULTANT_FEE_DETAILS,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SmartDoctor._CONSULTANT_FEE_DETAILSTableAdapters.TableAdapterManager.UpdateInsertedRows(SmartDoctor._CONSULTANT_FEE_DETAILS,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SmartDoctor._CONSULTANT_FEE_DETAILSTableAdapters.TableAdapterManager.UpdateDeletedRows(SmartDoctor._CONSULTANT_FEE_DETAILS,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SmartDoctor._CONSULTANT_FEE_DETAILSTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SmartDoctor._CONSULTANT_FEE_DETAILSTableAdapters.TableAdapterManager.UpdateAll(SmartDoctor._CONSULTANT_FEE_DETAILS)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SmartDoctor._CONSULTANT_FEE_DETAILSTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SmartDoctor._CONSULTANT_FEE_DETAILSTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:SmartDoctor._COMPANY_CONFIGURATIONS">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SmartDoctor._COMPANY_CONFIGURATIONS.COMPANY_CONFIGURATIONSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SmartDoctor._COMPANY_CONFIGURATIONS.COMPANY_CONFIGURATIONSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SmartDoctor._COMPANY_CONFIGURATIONS.COMPANY_CONFIGURATIONSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SmartDoctor._COMPANY_CONFIGURATIONSTableAdapters.COMPANY_CONFIGURATIONSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SmartDoctor._COMPANY_CONFIGURATIONSTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SmartDoctor._COMPANY_CONFIGURATIONSTableAdapters.TableAdapterManager.UpdateUpdatedRows(SmartDoctor._COMPANY_CONFIGURATIONS,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SmartDoctor._COMPANY_CONFIGURATIONSTableAdapters.TableAdapterManager.UpdateInsertedRows(SmartDoctor._COMPANY_CONFIGURATIONS,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SmartDoctor._COMPANY_CONFIGURATIONSTableAdapters.TableAdapterManager.UpdateDeletedRows(SmartDoctor._COMPANY_CONFIGURATIONS,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SmartDoctor._COMPANY_CONFIGURATIONSTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SmartDoctor._COMPANY_CONFIGURATIONSTableAdapters.TableAdapterManager.UpdateAll(SmartDoctor._COMPANY_CONFIGURATIONS)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SmartDoctor._COMPANY_CONFIGURATIONSTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SmartDoctor._COMPANY_CONFIGURATIONSTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:SmartDoctor._SYS_USERS">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SmartDoctor._SYS_USERS.SYS_USERSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SmartDoctor._SYS_USERS.SYS_USERSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SmartDoctor._SYS_USERS.SYS_USERSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SmartDoctor._SYS_USERSTableAdapters.SYS_USERSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SmartDoctor._SYS_USERSTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SmartDoctor._SYS_USERSTableAdapters.TableAdapterManager.UpdateUpdatedRows(SmartDoctor._SYS_USERS,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SmartDoctor._SYS_USERSTableAdapters.TableAdapterManager.UpdateInsertedRows(SmartDoctor._SYS_USERS,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SmartDoctor._SYS_USERSTableAdapters.TableAdapterManager.UpdateDeletedRows(SmartDoctor._SYS_USERS,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SmartDoctor._SYS_USERSTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SmartDoctor._SYS_USERSTableAdapters.TableAdapterManager.UpdateAll(SmartDoctor._SYS_USERS)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SmartDoctor._SYS_USERSTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SmartDoctor._SYS_USERSTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:SmartDoctor._PATIENT_VITALS">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SmartDoctor._PATIENT_VITALS.PATIENT_VITALSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SmartDoctor._PATIENT_VITALS.PATIENT_VITALSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SmartDoctor._PATIENT_VITALS.PATIENT_VITALSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SmartDoctor._PATIENT_VITALSTableAdapters.PATIENT_VITALSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SmartDoctor._PATIENT_VITALSTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SmartDoctor._PATIENT_VITALSTableAdapters.TableAdapterManager.UpdateUpdatedRows(SmartDoctor._PATIENT_VITALS,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SmartDoctor._PATIENT_VITALSTableAdapters.TableAdapterManager.UpdateInsertedRows(SmartDoctor._PATIENT_VITALS,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SmartDoctor._PATIENT_VITALSTableAdapters.TableAdapterManager.UpdateDeletedRows(SmartDoctor._PATIENT_VITALS,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SmartDoctor._PATIENT_VITALSTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SmartDoctor._PATIENT_VITALSTableAdapters.TableAdapterManager.UpdateAll(SmartDoctor._PATIENT_VITALS)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SmartDoctor._PATIENT_VITALSTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SmartDoctor._PATIENT_VITALSTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:SmartDoctor._PATIENT_REPORTS">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SmartDoctor._PATIENT_REPORTS.PATIENT_REPORTSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SmartDoctor._PATIENT_REPORTS.PATIENT_REPORTSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SmartDoctor._PATIENT_REPORTS.PATIENT_REPORTSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SmartDoctor._PATIENT_REPORTSTableAdapters.PATIENT_REPORTSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SmartDoctor._PATIENT_REPORTSTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SmartDoctor._PATIENT_REPORTSTableAdapters.TableAdapterManager.UpdateUpdatedRows(SmartDoctor._PATIENT_REPORTS,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SmartDoctor._PATIENT_REPORTSTableAdapters.TableAdapterManager.UpdateInsertedRows(SmartDoctor._PATIENT_REPORTS,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SmartDoctor._PATIENT_REPORTSTableAdapters.TableAdapterManager.UpdateDeletedRows(SmartDoctor._PATIENT_REPORTS,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SmartDoctor._PATIENT_REPORTSTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SmartDoctor._PATIENT_REPORTSTableAdapters.TableAdapterManager.UpdateAll(SmartDoctor._PATIENT_REPORTS)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SmartDoctor._PATIENT_REPORTSTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SmartDoctor._PATIENT_REPORTSTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
