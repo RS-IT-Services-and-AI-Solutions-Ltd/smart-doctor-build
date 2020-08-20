@@ -712,6 +712,136 @@ Update Order Option
 Used to sort self-referenced table's rows
 </summary>
 </member>
+<member name="T:SmartDoctor.DOSAGE_LIST">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SmartDoctor.DOSAGE_LIST.DOSAGE_DETAILSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SmartDoctor.DOSAGE_LIST.DOSAGE_DETAILSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SmartDoctor.DOSAGE_LIST.DOSAGE_DETAILSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SmartDoctor.DOSAGE_LISTTableAdapters.DOSAGE_DETAILSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SmartDoctor.DOSAGE_LISTTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SmartDoctor.DOSAGE_LISTTableAdapters.TableAdapterManager.UpdateUpdatedRows(SmartDoctor.DOSAGE_LIST,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SmartDoctor.DOSAGE_LISTTableAdapters.TableAdapterManager.UpdateInsertedRows(SmartDoctor.DOSAGE_LIST,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SmartDoctor.DOSAGE_LISTTableAdapters.TableAdapterManager.UpdateDeletedRows(SmartDoctor.DOSAGE_LIST,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SmartDoctor.DOSAGE_LISTTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SmartDoctor.DOSAGE_LISTTableAdapters.TableAdapterManager.UpdateAll(SmartDoctor.DOSAGE_LIST)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SmartDoctor.DOSAGE_LISTTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SmartDoctor.DOSAGE_LISTTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:SmartDoctor.MEDICINES_LIST">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SmartDoctor.MEDICINES_LIST.MEDICINE_DETAILSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SmartDoctor.MEDICINES_LIST.MEDICINE_DETAILSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SmartDoctor.MEDICINES_LIST.MEDICINE_DETAILSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SmartDoctor.MEDICINES_LISTTableAdapters.MEDICINE_DETAILSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SmartDoctor.MEDICINES_LISTTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SmartDoctor.MEDICINES_LISTTableAdapters.TableAdapterManager.UpdateUpdatedRows(SmartDoctor.MEDICINES_LIST,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SmartDoctor.MEDICINES_LISTTableAdapters.TableAdapterManager.UpdateInsertedRows(SmartDoctor.MEDICINES_LIST,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SmartDoctor.MEDICINES_LISTTableAdapters.TableAdapterManager.UpdateDeletedRows(SmartDoctor.MEDICINES_LIST,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SmartDoctor.MEDICINES_LISTTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SmartDoctor.MEDICINES_LISTTableAdapters.TableAdapterManager.UpdateAll(SmartDoctor.MEDICINES_LIST)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SmartDoctor.MEDICINES_LISTTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SmartDoctor.MEDICINES_LISTTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
 <member name="T:SmartDoctor.PATIENTS_LIST">
 <summary>
 Represents a strongly typed in-memory cache of data.
@@ -1528,6 +1658,71 @@ Update Order Option
 </summary>
 </member>
 <member name="T:SmartDoctor._PATIENT_REPORTSTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:SmartDoctor._VISIT_PRESCRIPTION">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SmartDoctor._VISIT_PRESCRIPTION.VISIT_PRESCRIPTIONSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SmartDoctor._VISIT_PRESCRIPTION.VISIT_PRESCRIPTIONSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SmartDoctor._VISIT_PRESCRIPTION.VISIT_PRESCRIPTIONSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SmartDoctor._VISIT_PRESCRIPTIONTableAdapters.VISIT_PRESCRIPTIONSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SmartDoctor._VISIT_PRESCRIPTIONTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SmartDoctor._VISIT_PRESCRIPTIONTableAdapters.TableAdapterManager.UpdateUpdatedRows(SmartDoctor._VISIT_PRESCRIPTION,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SmartDoctor._VISIT_PRESCRIPTIONTableAdapters.TableAdapterManager.UpdateInsertedRows(SmartDoctor._VISIT_PRESCRIPTION,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SmartDoctor._VISIT_PRESCRIPTIONTableAdapters.TableAdapterManager.UpdateDeletedRows(SmartDoctor._VISIT_PRESCRIPTION,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SmartDoctor._VISIT_PRESCRIPTIONTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SmartDoctor._VISIT_PRESCRIPTIONTableAdapters.TableAdapterManager.UpdateAll(SmartDoctor._VISIT_PRESCRIPTION)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SmartDoctor._VISIT_PRESCRIPTIONTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SmartDoctor._VISIT_PRESCRIPTIONTableAdapters.TableAdapterManager.SelfReferenceComparer">
 <summary>
 Used to sort self-referenced table's rows
 </summary>
