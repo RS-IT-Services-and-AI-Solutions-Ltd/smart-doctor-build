@@ -1727,5 +1727,70 @@ Update Order Option
 Used to sort self-referenced table's rows
 </summary>
 </member>
+<member name="T:SmartDoctor._PRINT_CONFIGURATIONS">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SmartDoctor._PRINT_CONFIGURATIONS.PRINT_CONFIGURATIONSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SmartDoctor._PRINT_CONFIGURATIONS.PRINT_CONFIGURATIONSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SmartDoctor._PRINT_CONFIGURATIONS.PRINT_CONFIGURATIONSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SmartDoctor._PRINT_CONFIGURATIONSTableAdapters.PRINT_CONFIGURATIONSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SmartDoctor._PRINT_CONFIGURATIONSTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SmartDoctor._PRINT_CONFIGURATIONSTableAdapters.TableAdapterManager.UpdateUpdatedRows(SmartDoctor._PRINT_CONFIGURATIONS,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SmartDoctor._PRINT_CONFIGURATIONSTableAdapters.TableAdapterManager.UpdateInsertedRows(SmartDoctor._PRINT_CONFIGURATIONS,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SmartDoctor._PRINT_CONFIGURATIONSTableAdapters.TableAdapterManager.UpdateDeletedRows(SmartDoctor._PRINT_CONFIGURATIONS,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SmartDoctor._PRINT_CONFIGURATIONSTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SmartDoctor._PRINT_CONFIGURATIONSTableAdapters.TableAdapterManager.UpdateAll(SmartDoctor._PRINT_CONFIGURATIONS)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SmartDoctor._PRINT_CONFIGURATIONSTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SmartDoctor._PRINT_CONFIGURATIONSTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
 </members>
 </doc>
